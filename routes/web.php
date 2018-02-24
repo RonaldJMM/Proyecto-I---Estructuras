@@ -14,3 +14,22 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/index', function () {
+    return view('index');
+});
+Route::get('/definicion', function () {
+    return view('definicion');
+});
+
+Route::get('/clasificacion', function () {
+    return view('clasificacion');
+});
+
+Route::get('/tipos', function () {
+    return view('tipos');
+});
+
+Route::get('/medios', function () {
+    return view('medios');
+});
+
