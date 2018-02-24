@@ -84,8 +84,7 @@
                 <div class="title m-b-md">
                     LARAVEL - ESTRCUTURAS 302
                 </div>
-<<<<<<< Updated upstream
-=======
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
@@ -95,12 +94,14 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href="http://localhost/ProyectoI/public/index">Proyecto I</a>
                 </div>
->>>>>>> Stashed changes
+
+
+                
             </div>
         </div>
         <div class="container">
             <h2>Estructuras</h2>
-            
+
             <h2>Estructuras</h2>
 
         </div>
