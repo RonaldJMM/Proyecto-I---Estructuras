@@ -33,3 +33,8 @@ Route::get('/medios', function () {
     return view('medios');
 });
 
+Route::get('/ejercicio', function () {
+    return view('ejercicio');
+});
+
+Route::post('formulario','LogicaEjercicioController@gestionMatriz');

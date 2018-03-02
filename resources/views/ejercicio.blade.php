@@ -71,23 +71,31 @@
 						<a href="http://localhost/ProyectoI/public/tipos"><button type="button" class="btn btn-secondary">Tipos</button></a>
 						&nbsp;&nbsp;
 						<a href="http://localhost/ProyectoI/public/medios"><button type="button" class="btn btn-secondary">Medios</button></a>
-						<a href="http://localhost/ProyectoI/public/ejercicio"><button type="button" class="btn btn-secondary">Ejercicio</button></a>
 
 					</center>
 					<br>
 					
-			<font color="white" face="Lithos Pro">
+			<font color="black" face="Lithos Pro">
 				
 			<div class="container">
 			  <div class="row">
 
-			    <div class="col"><h1>Inicio</h1></div>
+			    <div class="col"><h1>Ejercicio</h1></div>
 			    
 			    <div class="w-100"></div>
 			    <div class="col">
 			    	<blockquote class="blockquote">
-					  <p class="mb-0"><br><?php echo "Bienvenido al portal de Laravel - Estructuras de Datos, dicho portal esta diseñado con el fin de informar acerca de la definificion, clasificación y tipos de los medios de Comunicación.";?><br><br></p>
-					  <cite title="Source Title"><?php echo "▸Pagina Web diseñada por Ronald Jefrey Moreno Mora.";?><br><br></cite>
+					  <form action="{{ url('formulario')}}" method="post">
+					  	{{csrf_field()}}
+					  	<input type="text" name="nombre1">
+					  	<input type="text" name="nombre2">
+					  	<input type="text" name="nombre3">
+					  	<input type="text" name="nombre4">
+					  	<input type="text" name="nombre5">
+					  	<input type="text" name="nombre6">
+					  	<br><br><button type="submit">Enviar</button>
+					  </form>
+					  
 					</blockquote>
 
 					</div>
