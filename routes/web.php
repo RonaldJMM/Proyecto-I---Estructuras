@@ -37,4 +37,10 @@ Route::get('/ejercicio', function () {
     return view('ejercicio');
 });
 
+
 Route::post('formulario','LogicaEjercicioController@gestionMatriz');
+
+Route::get('/ejercicio2', function () {
+    return view('ejercicio2');
+});
+Route::post('formulario2','ControladorEjercicio2@MatrizEjercicio2');
